@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rootbg"
+    tools:context=".Fragments.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/welcome_card_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#00000000"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="5dp"
+            android:visibility="gone"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:background="@color/purple_500">
+
+                <TextView
+                    android:id="@+id/hello_usertext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:includeFontPadding="false"
+                    android:maxLines="2"
+                    android:text="Welcome to Space Lounge Lira"
+                    android:textColor="#fff"
+                    android:textSize="25sp"
+                    android:transitionName="logo_text"
+
+                    />
+
+                <TextView
+                    android:id="@+id/what_they_eat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hello_usertext"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:includeFontPadding="false"
+                    android:text="We have amazing offers and exciting new items on our menu What would you like to Eat Today?"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:transitionName="logo_desc" />
+
+
+                <Button
+                    android:id="@+id/cardclosebutton"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/custom_btn_close"
+                    android:theme="@style/Closebutton" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/home_slider"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMarginBottom="8dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                android:background="@color/purple_500"
+                app:sliderIndicatorSelectedColor="#FFD600"
+                app:sliderIndicatorUnselectedColor="#80FFFFFF"
+                app:sliderScrollTimeInSec="1"
+                android:visibility="gone"
+                app:sliderStartAutoCycle="true" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCFCFC"
+            android:layout_marginTop="20dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/categorylable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:includeFontPadding="false"
+                android:text="Categories"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/category_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/montserrat"
+                android:includeFontPadding="false"
+                android:text="Our Top Menu Grouped By Categories"
+                android:textColor="@color/light_black"
+                android:textSize="14sp"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/categorylable" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FCFCFC"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/home_main_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:paddingBottom="@dimen/activity_margin_content" />
+
+
+                <ProgressBar
+                    android:layout_margin="20dp"
+                    android:id="@+id/home_main_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+
+                <include
+                    layout="@layout/error_layout" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCFCFC"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            >
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/menu_sectioned_recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingTop="10dp"
+                android:paddingBottom="@dimen/activity_margin_content" />
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

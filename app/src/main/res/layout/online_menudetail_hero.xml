@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="40dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+
+
+            <ImageView
+                android:id="@+id/menu_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/purple_500"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/menuimage" />
+
+            <ProgressBar
+                android:id="@+id/product_detail_image_progress"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="@id/menu_image"
+                app:layout_constraintTop_toTopOf="@id/menu_image"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="@dimen/activity_margin"
+                android:layout_height="@dimen/activity_margin"
+                android:layout_gravity="center"
+                android:theme="@style/CircularProgress" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#27000000"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingVertical="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                >
+
+
+                <TextView
+                    android:id="@+id/menu_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:includeFontPadding="false"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="20"
+                    android:text="Fresh Brocolli"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toTopOf="@id/menu_shortinfo" />
+
+                <TextView
+                    android:id="@+id/menu_shortinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:includeFontPadding="false"
+                    android:maxLines="3"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDx="0"
+                    android:shadowDy="0"
+                    android:shadowRadius="20"
+                    android:text="Fresh Brocolli"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+
+                    />
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="-40dp">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="50dp"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/menu_detail_st_cartbtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/custom_cart_btn"
+                        android:backgroundTint="@color/purple_500"
+                        android:theme="@style/BlackBtn" />
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="50dp"
+
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/menu_detail_st_likebtn"
+                        android:theme="@style/BlackBtn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/custom_cart_like_btn"
+                       />
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/menu_description_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:includeFontPadding="false"
+            android:maxLines="3"
+            android:shadowColor="@android:color/black"
+            android:text="Description"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/menu_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/montserrat"
+            android:includeFontPadding="false"
+            android:shadowColor="@android:color/black"
+            android:text="Take these meals hiking, biking, fishing, camping, outdoors, eat on the go, food on the go. Enertia Trail Foods, backpacking meals, camping food, dehydrated food, freeze-dried food."
+            android:textColor="#424242"
+            android:textSize="14sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/ratingnumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-black"
+                    android:includeFontPadding="false"
+                    android:text="21"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/cart_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/cart_number"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/montserrat"
+                    android:includeFontPadding="false"
+                    android:text="Rating"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/menu_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-black"
+                    android:includeFontPadding="false"
+                    android:text="20,400"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/wallet_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wallet_label"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/montserrat"
+                    android:includeFontPadding="false"
+                    android:text="Unit Price (UGX)"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/menu_qtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-black"
+                    android:includeFontPadding="false"
+                    android:text="1"
+                    android:textSize="18sp" />
+
+
+                <TextView
+                    android:id="@+id/menu_qtn_lable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wallet_label"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/montserrat"
+                    android:includeFontPadding="false"
+                    android:text="Qtn"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/menu_total_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="sans-serif-black"
+                    android:includeFontPadding="false"
+                    android:textColor="@android:color/black"
+                    android:text="20,400"
+                    android:textSize="20sp" />
+
+
+                <TextView
+                    android:id="@+id/menu_total_price_lable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/wallet_label"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/montserrat"
+                    android:includeFontPadding="false"
+                    android:text="Total Price (UGX)"
+                    android:textSize="16sp" />
+
+
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                >
+
+                <Button
+                    android:id="@+id/removeBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/custom_btn_remove"
+                    android:backgroundTint="@color/purple_500" />
+
+                <TextView
+                    android:id="@+id/itemQuanEt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_toRightOf="@+id/removeBtn"
+                    android:fontFamily="sans-serif-black"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:minEms="1"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textFontWeight="500"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/addBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/itemQuanEt"
+                    android:background="@drawable/custom_btn_add"
+                    android:backgroundTint="@color/button_background_color"
+                    android:textColor="#FFD600" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAddtoCart"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Add to Cart"
+            app:iconSize="18dp"
+            app:iconGravity="textStart"
+            app:iconTint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            app:layout_constraintStart_toStartOf="parent"
+            app:strokeWidth="0dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnOrderNow"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Now"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@color/purple_500"
+            android:transitionName="account_change"
+            app:layout_constraintStart_toStartOf="parent"
+            app:strokeColor="@color/purple_500"
+            app:strokeWidth="1dp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    >
+
+    <TextView
+        android:id="@+id/textnewsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="18sp"
+        android:text="News Title"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/textNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:text="News Description"
+        >
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FFFFBB33"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/paymentgreen" />
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/section_show_all_button"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:includeFontPadding="false"
+        android:layout_marginHorizontal="20dp"
+        android:text="Add New Payment Method"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/section_label_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:includeFontPadding="false"
+        android:text="All Payment Information are safe and secured on all our Platforms"
+        android:textColor="@color/light_black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/section_label_payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginHorizontal="20dp"
+        android:includeFontPadding="false"
+        android:text="Current Payment Method"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+    <TextView
+        android:id="@+id/section_label_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="20dp"
+        android:includeFontPadding="false"
+        android:text="Cash on Delivery"
+        android:textColor="@color/light_black"
+        android:textSize="16sp" />
+
+
+
+
+</LinearLayout>

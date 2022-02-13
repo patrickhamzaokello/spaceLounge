@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/activity_login_material.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/activity_place_order.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/activity_register_material.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/activity_splash_activity.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/fragment_home.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/home_section_custom_row_layout.xml" value="0.2" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/home_section_item_custom_row_layout.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/order_recommend_layout.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/search_pagination_item_list.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/SpaceLounge/app/src/main/res/layout/selected_category_pagination_item_list.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/KaKebe/AndroidStudioProjects/zodongoAndroid/app/src/main/res/layout/activity_sign_up_options.xml" value="0.17481884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

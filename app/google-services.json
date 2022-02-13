@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "239972676568",
+    "project_id": "space-lounge-lira",
+    "storage_bucket": "space-lounge-lira.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239972676568:android:b9f9d63bede649c8f578ad",
+        "android_client_info": {
+          "package_name": "com.pkasemer.spacelounge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "239972676568-o6a65uvp6k1t2kc92364m5md4e8psg5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChh7SeJlUnMpuIAkXUM2BPWvu3q7Udi5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "239972676568-o6a65uvp6k1t2kc92364m5md4e8psg5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

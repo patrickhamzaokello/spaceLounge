@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+        <item name="android:windowBackground">@color/rootbg</item>
+    </style>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#E3F2C2</item>
+    </style>
+
+    <style name="Closebutton" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/btnClose</item>
+        <item name="colorPrimaryDark">@color/btnClose</item>
+        <item name="colorAccent">@color/btnClose</item>
+    </style>
+
+    <style name="Redbtn" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/buttonRed</item>
+        <item name="colorPrimaryDark">@color/buttonRed</item>
+        <item name="colorAccent">@color/buttonRed</item>
+    </style>
+
+
+    <style name="BlackBtn" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/purple_700</item>
+    </style>
+
+
+    <style name="GreenBtn" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#1A8E1E</item>
+        <item name="colorPrimaryDark">#1A8E1E</item>
+        <item name="colorAccent">#1A8E1E</item>
+    </style>
+
+    <style name="WhiteBtn" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">#FFFFFF</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+</resources>

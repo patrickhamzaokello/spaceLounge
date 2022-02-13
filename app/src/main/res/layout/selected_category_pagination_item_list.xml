@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/rootbg"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_margin_half"
+        app:cardCornerRadius="3dp"
+        app:cardPreventCornerOverlap="false">
+
+
+        <ImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="@dimen/poster_thumb_width"
+            android:layout_height="@dimen/poster_thumb_height"
+            android:background="@color/purple_700" />
+
+        <ProgressBar
+            android:id="@+id/movie_progress"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="@dimen/activity_margin"
+            android:layout_height="@dimen/activity_margin"
+            android:layout_gravity="center"
+            android:theme="@style/CircularProgress" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/poster_thumb_width"
+        android:paddingLeft="@dimen/poster_thumb_width"
+        android:paddingTop="@dimen/activity_margin_half"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin"
+        android:paddingBottom="@dimen/activity_margin">
+
+        <TextView
+            android:id="@+id/movie_year"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_margin_content"
+            android:layout_marginLeft="@dimen/activity_margin_content"
+            android:gravity="end"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/montserrat"
+            android:maxLines="1"
+            android:textStyle="bold"
+            tools:text="2009 | EN" />
+
+        <TextView
+            android:id="@+id/movie_title"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_margin_content"
+            android:layout_marginLeft="@dimen/activity_margin_content"
+            android:layout_marginTop="@dimen/activity_margin_quarter"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:fontFamily="@font/montserrat"
+            tools:text="Movie Title" />
+
+        <TextView
+            android:id="@+id/movie_desc"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_margin_content"
+            android:layout_marginLeft="@dimen/activity_margin_content"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:textColor="@color/light_black"
+            android:fontFamily="@font/montserrat"
+            android:ellipsize="end"
+            android:maxLines="2"
+            tools:text="Nowadays, user engagement is considered one of the most important metrics for the success of your app" />
+
+        <TextView
+            android:id="@+id/movie_price"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_margin_content"
+            android:layout_marginLeft="@dimen/activity_margin_content"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="@color/light_black"
+            android:textSize="18sp"
+            tools:text="Ugx 34,000" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="-25dp"
+            android:clipToPadding="false">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clipToPadding="false"
+                app:cardBackgroundColor="@color/black"
+                android:layout_alignParentRight="true"
+                app:cardCornerRadius="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+
+                    <Button
+                        android:id="@+id/selected_Category_plus"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/custom_plus_btn"
+                        android:theme="@style/WhiteBtn"
+                        android:backgroundTint="@color/white" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

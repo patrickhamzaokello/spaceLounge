@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bumptech.glide:gifdecoder:4.12.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/transforms-3/a7a4d364e54036c55bcfb3c121a12d6f/transformed/jetified-gifdecoder-4.12.0/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/549208f07e00a000b17e2d816d2326da/transformed/jetified-gifdecoder-4.12.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/9eab8434dbc91c9ccda46ead65935cc0/transformed/jetified-gifdecoder-4.12.0/res" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/a7a4d364e54036c55bcfb3c121a12d6f/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/transforms-3/a7a4d364e54036c55bcfb3c121a12d6f/transformed/jetified-gifdecoder-4.12.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/a7a4d364e54036c55bcfb3c121a12d6f/transformed/jetified-gifdecoder-4.12.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e0b10ec0812a6be8d6baa1f859085f0e/transformed/jetified-gifdecoder-4.12.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/549208f07e00a000b17e2d816d2326da/transformed/jetified-gifdecoder-4.12.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/549208f07e00a000b17e2d816d2326da/transformed/jetified-gifdecoder-4.12.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/549208f07e00a000b17e2d816d2326da/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.12.0/746b9323bb108e97840d4dacd37bd8d4cec34419/gifdecoder-4.12.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.12.0/746b9323bb108e97840d4dacd37bd8d4cec34419/gifdecoder-4.12.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.12.0/756734cd8ffb3c771f376767fa8464157f2d02d4/gifdecoder-4.12.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.12.0/756734cd8ffb3c771f376767fa8464157f2d02d4/gifdecoder-4.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

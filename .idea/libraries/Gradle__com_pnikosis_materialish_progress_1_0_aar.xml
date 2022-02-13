@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.pnikosis:materialish-progress:1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/transforms-3/4fc6118c6c0200a10acb32f9a262ed9d/transformed/jetified-materialish-progress-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/4fc6118c6c0200a10acb32f9a262ed9d/transformed/jetified-materialish-progress-1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/4fc6118c6c0200a10acb32f9a262ed9d/transformed/jetified-materialish-progress-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6575f95da9b77b1809f4004b68a8fb88/transformed/jetified-materialish-progress-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6575f95da9b77b1809f4004b68a8fb88/transformed/jetified-materialish-progress-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6575f95da9b77b1809f4004b68a8fb88/transformed/jetified-materialish-progress-1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/com.pnikosis/materialish-progress/1.0/27fea1adaf2e3fca647208c0f5c65dff96eed495/materialish-progress-1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.pnikosis/materialish-progress/1.0/27fea1adaf2e3fca647208c0f5c65dff96eed495/materialish-progress-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

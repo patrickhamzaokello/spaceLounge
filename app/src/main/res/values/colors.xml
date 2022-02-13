@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#1b60ad</color>
+    <color name="purple_500">#1b60ad</color>
+    <color name="purple_700">#1b60ad</color>
+    <color name="teal_200">#1b60ad</color>
+    <color name="teal_700">#1b60ad</color>
+    <color name="texton_green">#DEFFDD</color>
+    <color name="black">#011429</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="rootbg">#F2F2F2</color>
+
+    <color name="shimmer_color">#366C6C6C</color>
+    <color name="light_grey">#59708A</color>
+    <color name="light_black">#374C64</color>
+
+
+
+    <color name="green1">#ECF2BB</color>
+    <color name="green2">#D9CA9C</color>
+    <color name="green3">#D9564A</color>
+    <color name="green4">#D96B43</color>
+
+    <color name="changebtn">#e05725</color>
+    <color name="order_locationcolor">#e05725</color>
+
+
+
+    <color name="mygreen">#e05725</color>
+    <color name="buttonGreen">#e05725</color>
+
+    <color name="profilecards">#4395F1</color>
+
+    <color name="sweetRed">#FF0012</color>
+    <color name="buttonRed">#CE2630</color>
+    <color name="btnClose">#B8DAFF</color>
+
+    <color name="onboardingBG">#fff</color>
+    <color name="niceGreen">#15950D</color>
+    <color name="niceBlue">#0075D3</color>
+    <color name="pendingstatus">#D59F00</color>
+
+
+</resources>

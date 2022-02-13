@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Space Lounge</string>
+    <!--Title-->
+
+    <string name="first_slide_title">Welcome!</string>
+    <string name="second_slide_title">Healthy Options</string>
+    <string name="third_slide_title">Share Meals</string>
+    <string name="fourth_slide_title">Professional Service</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">At Space Lounge, We are ready to offer you the best services and best food around  Town. Slide Left for more Information to get you familiar with our services. </string>
+    <string name="second_slide_desc">We have a whole category that shows all foods in this range. Try Our Assorted Category that features Food Menu that caters to your health and for your family</string>
+    <string name="third_slide_desc">We make it Easy for you to share meals with your loved ones. select a menu and share it with friends and family. Eating Together builds strong bonds between families and friends.</string>
+    <string name="fourth_slide_desc">We pride our selves in the professional Serivice that we offer from customer support to Safe and Fast Handling of Orders. Tap "Lets Get Started" button to SignUp on Space Lounge</string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_search">Search</string>
+    <string name="title_Cart">Cart</string>
+
+    <string name="default_notification_channel_id">PushNotifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_api_key">c13947fd4f4f71afeffbb9214a33b3c9</string>
+    <string name="error_msg_unknown">message unknown</string>
+    <string name="error_msg_no_internet">no internet</string>
+    <string name="error_msg_timeout">request timeout</string>
+
+
+    <!--    sectioned Recylerview-->
+    <string name="linear_sectioned_recyclerview_vertical">Linear Sectioned RecyclerView (Vertical)</string>
+    <string name="linear_sectioned_recyclerview_horizontal">Linear Sectioned RecyclerView (Horizontal)</string>
+    <string name="grid_sectioned_recyclerview">Grid Sectioned RecyclerView</string>
+    <string name="show_all">Show All</string>
+
+    <string name="cartcoutAction">cartmsg</string>
+    <string name="cartCount">cartcount</string>
+    <string name="google_maps_key">AIzaSyB9MxxJBmzLHdfsMEZSdV0vORR_MRwirPI</string>
+    <string name="i_am_here">I am Here</string>
+    <string name="provider_failed">Provider Failed</string>
+</resources>

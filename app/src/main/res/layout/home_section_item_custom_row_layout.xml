@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/rootbg"
+    android:clipToPadding="false"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/image_card_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        app:cardCornerRadius="5dp">
+
+        <ImageView
+            android:id="@+id/product_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:background="@color/purple_500"
+            android:src="@drawable/beefstew"></ImageView>
+
+        <ProgressBar
+            android:id="@+id/home_product_image_progress"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="@dimen/activity_margin"
+            android:layout_height="@dimen/activity_margin"
+            android:layout_gravity="center"
+            android:theme="@style/CircularProgress" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <RelativeLayout
+        android:id="@+id/product_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_card_view"
+        android:layout_marginTop="10dp"
+        >
+
+
+
+        <TextView
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:fontFamily="@font/montserrat"
+            android:text="Otigo Lwaka"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/item_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_name"
+            android:layout_toLeftOf="@+id/home_addToCart"
+            android:gravity="left"
+            android:includeFontPadding="false"
+            android:text="Rating 4|5"
+            android:textColor="@color/light_black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_toLeftOf="@+id/home_addToCart"
+            android:layout_below="@+id/item_rating"
+            android:text="Ugx 3,800"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/home_addToCart"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:clipToPadding="false"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@+id/item_price"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="100dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/home_st_carttn"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/custom_plus_btn"
+                        android:theme="@style/WhiteBtn"
+                        android:backgroundTint="@color/white" />
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

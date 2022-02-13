@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.work:work-testing:2.7.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/c654ba26e69ae288a6f2522e2188b8c1/transformed/work-testing-2.7.1/res" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/c654ba26e69ae288a6f2522e2188b8c1/transformed/work-testing-2.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/transforms-3/c654ba26e69ae288a6f2522e2188b8c1/transformed/work-testing-2.7.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/78c2b268fd205209acaecb0a90e151bf/transformed/work-testing-2.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/78c2b268fd205209acaecb0a90e151bf/transformed/work-testing-2.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/78c2b268fd205209acaecb0a90e151bf/transformed/work-testing-2.7.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/androidx.work/work-testing/2.7.1/e36bd27fc486e150bc67b53c24f870bac9877254/work-testing-2.7.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.work/work-testing/2.7.1/e36bd27fc486e150bc67b53c24f870bac9877254/work-testing-2.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.pkasemer.spacelounge">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpaceLounge"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+        <activity android:name="com.pkasemer.spacelounge.ManageOrders" />
+
+        <receiver
+            android:name="com.pkasemer.spacelounge.Utils.NetworkStateChecker"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.pkasemer.spacelounge.Demo"
+            android:exported="true" />
+        <activity
+            android:name="com.pkasemer.spacelounge.PlaceOrder"
+            android:exported="true" />
+        <activity
+            android:name="com.pkasemer.spacelounge.MyMenuDetail"
+            android:exported="true" />
+        <activity
+            android:name="com.pkasemer.spacelounge.MySelectedCategory"
+            android:exported="true" />
+        <activity
+            android:name="com.pkasemer.spacelounge.RootActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.pkasemer.spacelounge.RegisterMaterial"
+            android:exported="true" />
+        <activity
+            android:name="com.pkasemer.spacelounge.LoginMaterial"
+            android:exported="true" />
+        <activity
+            android:name="com.pkasemer.spacelounge.OnBoarding"
+            android:exported="true" />
+        <activity
+            android:name="com.pkasemer.spacelounge.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.pkasemer.spacelounge.CustomMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_mycart" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/purple_200" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <receiver
+            android:name="com.pkasemer.spacelounge.NotificationReceiver"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

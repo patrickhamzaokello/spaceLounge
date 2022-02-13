@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="60dp"
+    >
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/section_show_all_button"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:includeFontPadding="false"
+        android:paddingHorizontal="10dp"
+        android:text="Section Name"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/section_label_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/montserrat"
+        android:includeFontPadding="false"
+        android:paddingHorizontal="10dp"
+        android:text="Space Lounge"
+        android:textColor="@color/light_black"
+        android:textSize="14sp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/section_show_all_button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:paddingTop="8dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="8dp"
+        android:text="Show All"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:backgroundTint="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeWidth="0dp" />
+
+    <!--  recycler view for items -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/item_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label_desc"
+        android:layout_marginTop="7dp" />
+</RelativeLayout>

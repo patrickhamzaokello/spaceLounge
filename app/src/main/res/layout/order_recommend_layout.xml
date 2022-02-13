@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/mygreen"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/order_recommend_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:visibility="visible">
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="Order Complete, We are Processing it Now. you will recieve a phone call from one of our employess to verify your order"/>
+
+        <TextView
+            android:id="@+id/error_txt_cause"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/light_grey"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="Space Lounge Team"/>
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/order_btn_todayMenu"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:text="Checkout Today's Menu"
+            app:iconSize="18dp"
+            app:iconGravity="textStart"
+            app:iconTint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/purple_200"
+            app:layout_constraintStart_toStartOf="parent"
+            app:strokeWidth="0dp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGoHOme"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Home"
+            android:layout_marginHorizontal="10dp"
+            android:textColor="@color/purple_500"
+            android:transitionName="account_change"
+            app:layout_constraintStart_toStartOf="parent"
+            app:strokeColor="@color/purple_500"
+            app:strokeWidth="1dp" />
+
+    </LinearLayout>
+
+</merge>

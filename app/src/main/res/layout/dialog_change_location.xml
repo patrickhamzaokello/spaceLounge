@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FFFFBB33"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/staticmapblack" />
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/section_show_all_button"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:includeFontPadding="false"
+        android:layout_marginHorizontal="20dp"
+        android:text="New Delivery Address"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/section_label_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginHorizontal="20dp"
+android:layout_marginBottom="20dp"
+        android:includeFontPadding="false"
+        android:text="Your order will be delivered here"
+        android:textColor="@color/light_black"
+        android:textSize="14sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/locationLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeErrorColor="@color/purple_500"
+        app:hintTextColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Location"
+        android:textColorHint="@color/black"
+        android:layout_marginHorizontal="20dp"
+        android:transitionName="username_input">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputUserNewLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/black" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phoneLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="@color/black"
+        app:boxStrokeErrorColor="@color/purple_500"
+        app:hintTextColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:textColorHint="@color/black"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:transitionName="username_input">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputUserNewPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/black" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.work:work-runtime-ktx:2.7.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/transforms-3/be68c4d1e3e36ff4ca1c836372addb21/transformed/work-runtime-ktx-2.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/be68c4d1e3e36ff4ca1c836372addb21/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/Library/Android/sdk/caches/transforms-3/be68c4d1e3e36ff4ca1c836372addb21/transformed/work-runtime-ktx-2.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e9db34b32ce97bcd9baa5a9b905a92f1/transformed/work-runtime-ktx-2.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e9db34b32ce97bcd9baa5a9b905a92f1/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e9db34b32ce97bcd9baa5a9b905a92f1/transformed/work-runtime-ktx-2.7.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Library/Android/sdk/caches/modules-2/files-2.1/androidx.work/work-runtime-ktx/2.7.1/87205a7eb40893a5bbfb236d9d2e2ce7d196ec67/work-runtime-ktx-2.7.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.work/work-runtime-ktx/2.7.1/87205a7eb40893a5bbfb236d9d2e2ce7d196ec67/work-runtime-ktx-2.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
